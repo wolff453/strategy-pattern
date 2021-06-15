@@ -1,7 +1,7 @@
 docker run \
     --name postgres \
-    -e POSTGRES_USER=erickwendel \
-    -e POSTGRES_PASSWORD="senha0001" \
+    -e POSTGRES_USER=georgelobo \
+    -e POSTGRES_PASSWORD="senha01" \
     -e POSTGRES_DB=heroes \
     -p 5432:5432 \
     -d \
@@ -20,8 +20,8 @@ SELECT * FROM warriors;
 
 docker run \
     --name mongodb \
-    -e MONGO_INITDB_ROOT_USERNAME=erickwendel \
-    -e MONGO_INITDB_ROOT_PASSWORD=senhaadmin \
+    -e MONGO_INITDB_ROOT_USERNAME=georgelobo \
+    -e MONGO_INITDB_ROOT_PASSWORD=senha01 \
     -p 27017:27017 \
     -d \
 mongo:4
